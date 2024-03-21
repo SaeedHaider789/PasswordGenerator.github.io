@@ -1,0 +1,28 @@
+body{
+    background: #001e4d !important;
+    height: 100vh;
+}
+.mainbox-size{
+    margin-left: 130px !important;
+}
+.innerWidth{
+    width: 360px !important;
+}
+.display-custom-width{
+    width: 500px !important;
+}
+.img-custom-height{
+    height: 40px;
+}
+.light-custom-height{
+    height: 30px;
+    filter: invert(1);
+}
+.btn-custom-width{
+    width: 342px !important;
+}
+@media screen and (max-width: 650px){
+    .mainbox-size{
+        margin-left: 0px !important;
+    }
+}
